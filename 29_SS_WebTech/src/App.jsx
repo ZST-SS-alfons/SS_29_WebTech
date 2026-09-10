@@ -6,6 +6,12 @@ import './App.css'
 
 function App() {
 
+  const technology = {
+  name: "React",
+  category: "Frontend",
+  hours: 30,
+  active: true
+};
   const student = {
   name: "Szymon",
   surname: "Szostak",
@@ -16,7 +22,11 @@ function App() {
   return (
     <div>
 
+      <h1>{technology.name}</h1>
 
+      <p>Kategoria:{technology.category}</p>
+      
+      <p>Liczba godzin:{technology.hours}</p>
 
       <p>uczeń: {student.name}</p>
 

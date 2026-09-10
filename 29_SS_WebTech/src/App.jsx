@@ -5,13 +5,31 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const student = {
+  name: "Szymon",
+  surname: "Szostak",
+  className: "4P",
+  specialization: "technik programista"
+};
 
   return (
-  <>
-  sdfsdf
-  </>
-  )
+    <div>
+
+
+
+      <p>uczeń: {student.name}</p>
+
+      <p>klasa {student.className}</p>
+
+      <p>
+        Specjalizacja: {student.specialization}
+      </p>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
+
+

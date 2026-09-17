@@ -3,30 +3,24 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Header from './components/header.jsx'
 
-function App() {
- 
-  function Header(){
-    return(
-      <>
-    <h1>Header</h1>
-      </>
-    )
-  }
+  function App(){
 
   function Body(){
     return(
     <>
-      <body></body>
+      <body><p>ciało</p></body>
       </>
     )
-  }
+  
 
   return (
     <>
       <Header/>
     </>
   )
+}
 }
 
 export default App
